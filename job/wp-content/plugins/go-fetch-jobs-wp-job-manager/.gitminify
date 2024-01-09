@@ -1,0 +1,2 @@
+scripts[] = 'includes/admin/assets/js/scripts.js'
+scripts[] = 'includes/framework/admin/pointers-tour/pointers.js'

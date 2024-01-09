@@ -1,0 +1,6 @@
+[submodule "includes/freemius"]
+	path = includes/freemius
+	url = https://github.com/Freemius/wordpress-sdk.git
+[submodule "includes/framework"]
+	path = includes/framework
+	url = https://sebet@bitbucket.org/sebet/bc-framework.git

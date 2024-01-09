@@ -1,0 +1,825 @@
+# Copyright (C) 2016 Apus Jobpro
+# This file is distributed under the same license as the Apus Jobpro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Apus Jobpro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/apus-jobpro\n"
+"POT-Creation-Date: 2017-10-10 06:46:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/class-attachments.php:125
+msgid "Attachment:"
+msgstr ""
+
+#: inc/class-attachments.php:184
+msgid ""
+"<strong>ERROR:</strong> File <strong>%1$s</strong> you upload must be valid "
+"file type <strong>(%2$s)</strong>, and under %3$s!"
+msgstr ""
+
+#: inc/class-attachments.php:189
+msgid ""
+"<strong>ERROR:</strong> The uploaded file exceeds the upload_max_filesize "
+"directive in php.ini."
+msgstr ""
+
+#: inc/class-attachments.php:191
+msgid ""
+"<strong>ERROR:</strong> The uploaded file exceeds the MAX_FILE_SIZE "
+"directive that was specified in the HTML form."
+msgstr ""
+
+#: inc/class-attachments.php:193
+msgid ""
+"<strong>ERROR:</strong> The uploaded file was only partially uploaded. "
+"Please try again later."
+msgstr ""
+
+#: inc/class-attachments.php:195
+msgid "<strong>ERROR:</strong> Missing a temporary folder."
+msgstr ""
+
+#: inc/class-attachments.php:197
+msgid "<strong>ERROR:</strong> Failed to write file to disk."
+msgstr ""
+
+#: inc/class-attachments.php:199
+msgid "<strong>ERROR:</strong> A PHP extension stopped the file upload."
+msgstr ""
+
+#: inc/class-claim.php:34 inc/class-claim.php:199
+msgid "Claim Listing"
+msgstr ""
+
+#: inc/class-claim.php:61
+msgid "Claim for"
+msgstr ""
+
+#: inc/class-claim.php:107
+msgid "Claim has been submitted."
+msgstr ""
+
+#: inc/class-claim.php:112
+msgid "Can not claim this listing"
+msgstr ""
+
+#: inc/class-claim.php:154
+msgid "Claim Email Templates"
+msgstr ""
+
+#: inc/class-claim.php:159
+msgid "Email Subject For Claimer"
+msgstr ""
+
+#: inc/class-claim.php:160 inc/class-claim.php:166 inc/class-claim.php:173
+#: inc/class-claim.php:179 inc/class-claim.php:186 inc/class-claim.php:192
+msgid "Variables: "
+msgstr ""
+
+#: inc/class-claim.php:165
+msgid "Email Body For Claimer"
+msgstr ""
+
+#: inc/class-claim.php:172
+msgid "Email Subject For Admin"
+msgstr ""
+
+#: inc/class-claim.php:178
+msgid "Email Body For Admin"
+msgstr ""
+
+#: inc/class-claim.php:185
+msgid "Email Subject For Author"
+msgstr ""
+
+#: inc/class-claim.php:191
+msgid "Email Body For Author"
+msgstr ""
+
+#: inc/class-claim.php:204
+msgid "Enbale Claim"
+msgstr ""
+
+#: inc/class-claim.php:210
+msgid "Claim Title"
+msgstr ""
+
+#: inc/class-claim.php:215
+msgid "Banner"
+msgstr ""
+
+#: inc/class-claim.php:216
+msgid "Upload a .jpg or .png image."
+msgstr ""
+
+#: inc/class-claim.php:252
+msgid "Your Claim has been approved"
+msgstr ""
+
+#: inc/class-claim.php:253
+msgid "Congratulation! Your claim has been approved. Details are following"
+msgstr ""
+
+#: inc/class-claim.php:255
+msgid "Listing Title : "
+msgstr ""
+
+#: inc/class-claim.php:257
+msgid "URL : "
+msgstr ""
+
+#: inc/class-favorite.php:64
+msgid "Remove a listing to favorite successful"
+msgstr ""
+
+#: inc/class-favorite.php:67
+msgid "Remove a listing to favorite error"
+msgstr ""
+
+#: inc/class-favorite.php:117
+msgid "Apus Favorite Listings Page"
+msgstr ""
+
+#: inc/class-favorite.php:118
+msgid ""
+"Select the page where you have placed the [apus_listing_favorite] shortcode. "
+"This lets the plugin know where the job listings page is located."
+msgstr ""
+
+#: inc/class-products.php:45 inc/class-products.php:118
+#: inc/class-products.php:123
+msgid "Listing Products"
+msgstr ""
+
+#: inc/class-products.php:50
+msgid "Enbale Listing Products"
+msgstr ""
+
+#: inc/class-products.php:56
+msgid "Select Products Text"
+msgstr ""
+
+#: inc/class-products.php:57
+msgid "<em>Default: \"Select Your Services & Products\"</em>"
+msgstr ""
+
+#: inc/class-products.php:63
+msgid "enable filed in submit form"
+msgstr ""
+
+#: inc/class-products.php:69
+msgid "Products limitation"
+msgstr ""
+
+#: inc/class-products.php:70
+msgid ""
+"What products can listing owners select? <small>Admins will see all "
+"products</small>"
+msgstr ""
+
+#: inc/class-products.php:72
+msgid "Only their own"
+msgstr ""
+
+#: inc/class-products.php:73
+msgid "All"
+msgstr ""
+
+#: inc/class-products.php:81
+msgid "Display Settings"
+msgstr ""
+
+#: inc/class-products.php:86
+msgid "Listing Products Title"
+msgstr ""
+
+#: inc/class-products.php:87
+msgid "Listings Products"
+msgstr ""
+
+#: inc/class-products.php:92
+msgid "Layout Type"
+msgstr ""
+
+#: inc/class-products.php:94
+msgid "Grid"
+msgstr ""
+
+#: inc/class-products.php:95
+msgid "Carousel"
+msgstr ""
+
+#: inc/class-products.php:102
+msgid "Number Columns"
+msgstr ""
+
+#: inc/class-products.php:103
+msgid "1 Column"
+msgstr ""
+
+#: inc/class-products.php:104
+msgid "2 Columns"
+msgstr ""
+
+#: inc/class-products.php:105
+msgid "3 Columns"
+msgstr ""
+
+#: inc/class-products.php:106
+msgid "4 Columns"
+msgstr ""
+
+#: inc/class-products.php:107
+msgid "6 Columns"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:31
+#: inc/post-types/class-post-type-job_claim.php:32
+msgid "Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:33
+#: inc/post-types/class-post-type-job_claim.php:34
+msgid "Add New Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:35
+msgid "Edit Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:36
+msgid "New Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:37
+#: inc/post-types/class-post-type-job_claim.php:43
+msgid "Claims"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:38
+msgid "View Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:39
+msgid "Search Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:40
+msgid "No Claims found"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:41
+msgid "No Claims found in Trash"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:65
+msgid "Claim Information"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:96
+msgid "Claim For"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:102
+#: inc/post-types/class-post-type-job_claim.php:127
+msgid "Status"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:106
+msgid "Pending"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:107
+#: inc/post-types/class-post-type-job_claim.php:141
+msgid "Approved"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:108
+#: inc/post-types/class-post-type-job_claim.php:142
+msgid "Decline"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:112
+msgid "Claim Detail"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:125
+msgid "Title"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:126
+msgid "Author"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:128
+msgid "Date"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:140
+msgid "pending"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:41
+#: inc/post-types/class-post-type-job_listing.php:365
+#: inc/post-types/class-post-type-job_listing.php:374
+msgid "Listing"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:42
+msgid "Listings"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:48
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:35
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:33
+msgid "All %s"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:49
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:37
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:37
+msgid "Add New"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:50
+msgid "Add %s"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:51
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:35
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:35
+msgid "Edit"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:52
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:38
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:36
+msgid "Edit %s"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:53
+msgid "New %s"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:54
+#: inc/post-types/class-post-type-job_listing.php:55
+msgid "View %s"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:56
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:34
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:32
+msgid "Search %s"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:57
+msgid "No %s found"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:58
+msgid "No %s found in trash"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:59
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:36
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:34
+msgid "Parent %s"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:61
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:85
+#: inc/post-types/class-post-type-job_listing.php:289
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:96
+msgid "Add Images"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:97
+msgid "Remove Image"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:98
+msgid "File:"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:99
+msgid "Download"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:100
+msgid "Remove"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:111
+msgid "$ - Inexpensive"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:112
+msgid "$$ - Moderate"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:113
+msgid "$$$ - Pricey"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:114
+msgid "$$$$ - Ultra High"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:126
+msgid "Claimed:"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:128
+msgid "The owner has been verified."
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:132
+#: inc/post-types/class-post-type-job_listing.php:311
+#: templates/claim/claim-form.php:31
+msgid "Phone"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:134
+#: inc/post-types/class-post-type-job_listing.php:313
+msgid "e.g +84-669-996"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:140
+#: inc/post-types/class-post-type-job_listing.php:318
+msgid "Email"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:142
+msgid "youremail@email.com"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:147
+#: inc/post-types/class-post-type-job_listing.php:211
+msgid "Twitter url"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:150
+#: inc/post-types/class-post-type-job_listing.php:214
+msgid "Facebook url"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:157
+#: inc/post-types/class-post-type-job_listing.php:221
+msgid "Linkedin url"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:164
+#: inc/post-types/class-post-type-job_listing.php:228
+msgid "Pinterest url"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:171
+#: inc/post-types/class-post-type-job_listing.php:235
+msgid "Instagram url"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:179
+#: inc/post-types/class-post-type-job_listing.php:331
+msgid "Price Range"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:187
+#: inc/post-types/class-post-type-job_listing.php:338
+msgid "Price From"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:194
+#: inc/post-types/class-post-type-job_listing.php:345
+msgid "Price To"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:244
+msgid "Listing Name"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:245
+msgid "Your listing name"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:249
+msgid "An overview of your listing and the things you love about it."
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:254
+msgid "e.g 34 Wigmore Street, London"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:255
+msgid "Leave this blank if the location is not important."
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:259
+msgid "Choose one or more categories"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:261
+msgid "Listing category"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:262
+msgid ""
+"Visitors can filter their search by the categories and amenities they want - "
+"so make sure you choose them wisely and include all the relevant ones"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:269
+msgid "Add Location"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:270
+msgid "Listing Location"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:279
+msgid "Choose one or more amenities"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:280
+msgid "Listing Amenities"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:281
+msgid ""
+"Visitors can filter their search by the amenities too, so make sure you "
+"include all the relevant ones."
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:284
+msgid "Featured Image"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:287
+msgid "The image will be shown on listing cards."
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:302
+#: inc/post-types/class-post-type-job_listing.php:557
+#: inc/post-types/class-post-type-job_listing.php:562
+msgid "Hours of Operation"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:320
+msgid "e.g youremail@email.com"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:326
+msgid "e.g yourwebsite.com, London"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:327
+msgid "You can add more similar panels to better help the user fill the form"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:342
+msgid "e.g $100"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:349
+msgid "e.g $200"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:369
+msgid "Submission"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_listing.php:544
+#: inc/post-types/class-post-type-job_listing.php:545
+msgid "Closed"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:29
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:39
+msgid "Amenities"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:30
+msgid "Amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:31
+msgid "Search Amenities"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:32
+msgid "All Amenities"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:33
+msgid "Parent Amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:34
+msgid "Parent Amenity:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:36
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:36
+msgid "Update"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:38
+msgid "New Amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:46
+msgid "amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:62
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:62
+msgid "Image Icon"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:69
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:70
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:69
+msgid "Add Icon"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:74
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:74
+msgid "Font Icon"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:75
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:75
+msgid ""
+"You can choose a Font Icon instead using Image Icon. You can using "
+"fontawesome icon: http://fontawesome.io/"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:25
+msgid "Listing Category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:26
+msgid "Listings Categories"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:33
+msgid "Categories"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:37
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:35
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:39
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:37
+msgid "Update %s"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:40
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:38
+msgid "Add New %s"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:41
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:39
+msgid "New %s Name"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:45
+msgctxt "Listing category slug - resave permalinks after changing this"
+msgid "listing-category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:63
+msgid "Icon"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:29
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:39
+msgid "Locations"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:30
+msgid "Location"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:31
+msgid "Search Locations"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:32
+msgid "All Locations"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:33
+msgid "Parent Location"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:34
+msgid "Parent Location:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:38
+msgid "New Location"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:46
+msgid "region"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:24
+msgid "Listing Type"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:25
+msgid "Listings Types"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:31
+msgid "Types"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:43
+msgctxt "Listing type slug - resave permalinks after changing this"
+msgid "listing-type"
+msgstr ""
+
+#: templates/claim/claim-form.php:28
+msgid "Fullname"
+msgstr ""
+
+#: templates/claim/claim-form.php:34
+msgid "Additional proof to expedite your claim approval..."
+msgstr ""
+
+#: templates/claim/claim-form.php:37
+msgid "Claim This Business"
+msgstr ""
+
+#: templates/claim/claim.php:6
+msgid ""
+"Claim your free business page to have your changes published immediately."
+msgstr ""
+
+#: templates/claim/claim.php:7
+msgid "Claim this business"
+msgstr ""
+
+#: templates/favorite/button-detail.php:16
+#: templates/favorite/button-detail.php:24
+msgid "Favorites"
+msgstr ""
+
+#: templates/favorite/list.php:6
+msgid "Please login to view your favorite"
+msgstr ""
+
+#: templates/favorite/list.php:26
+msgid "You have not any listing to your favorite"
+msgstr ""
+
+#: templates/favorite/login-info.php:2
+msgid "Login to add this listing to your favorite"
+msgstr ""
+
+#: templates/favorite/result.php:6
+msgid "Add listing to favorite successful!"
+msgstr ""
+
+#: templates/favorite/result.php:8
+msgid "View favorite"
+msgstr ""
+
+#: templates/favorite/result.php:14
+msgid "Have a error when add to favorite!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Apus Jobpro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://apusthemes.com/booking/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Apus Jobpro is a plugin for Jobpro directory listing theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ApusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://apusthemes.com"
+msgstr ""

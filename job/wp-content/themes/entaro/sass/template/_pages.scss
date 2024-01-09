@@ -1,0 +1,92 @@
+// home Page
+body.home .apus-header{
+	.vertical-wrapper{
+		.content-vertical{
+			display: block;
+		}
+		&.vertical-toggle-show{
+			.content-vertical{
+				display: none;
+			}
+		}
+	}
+}
+// layout for woocommerce
+@media(min-width:992px){
+    .col-md-cl-5{
+        width: 20%;
+    }
+}
+//----------------------------------
+// layout page
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		@include rtl-margin-right(10px);
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+.user{
+	> div{
+		display: none;
+		&.active{
+			display: block;
+		}
+	}
+}
+// Page Not Found
+//----------------------------------
+.page-404{
+	background:url(#{$image-theme-path}bg-error.jpg) 100%/auto;
+	color: rgba(255,255,255,0.7);
+   .not-found{
+   	padding: 100px 0 ;
+   	@media(min-width:1200px){
+   		padding: 210px 0 230px;
+   	}
+   }
+   .slogan{
+   	margin-bottom: 40px;
+   }
+   .title-big{
+   		font-size: 150px;
+   		font-weight:700;
+   		line-height: 1.1;
+   		margin:0;
+   		color: #fff;
+   }
+   .page-title{
+   		color: #fff;
+	    font-size: 45px;
+	    margin: 0 0 15px;
+	    font-weight: 700;
+   }
+   .sub-title{
+   		font-size: 16px;
+   		font-weight: 300;
+   		margin: 0 0 50px;
+    }
+    .btn{
+    	letter-spacing: 2px;
+    }
+}
+.page-template-404{
+	#apus-main-content{
+		max-width: 100%;
+	}
+}

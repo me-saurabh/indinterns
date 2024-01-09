@@ -1,0 +1,177 @@
+/*
+Theme Name: Entaro
+Theme URI: https://apusthemes.com/entaro
+Author: ApusTheme
+Author URI: https://apusthemes.com/
+Description: Entaro is clean theme, it's used Apus Framework.
+Version: 3.25
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: entaro
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+img{
+    max-width: 100%;
+    height:auto;
+ }
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.gallery-caption {
+    box-sizing: border-box;
+}
+.bypostauthor{
+    box-sizing: border-box;
+}
+.widget-list-comment .widget-content {
+    padding: 50px 0px 50px 50px;
+}
+
+.job-manager-form > [class*='fieldset']:nth-child(even) {
+    clear: both;
+}
+.wp-block-categories-list.aligncenter{
+    text-align: center;
+}
+
+rs-module-wrap{
+    z-index: 0;
+}
+
+
+
+.select2-container .select2-selection--single {
+    height: 48px;
+}
+.select2-container--default .select2-selection--single, .select2-dropdown {
+    border: 1px solid #ebebeb;
+    outline: none !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 46px;
+    outline: none !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 46px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 15px;
+}
+.select2-container .select2-selection--multiple {
+    min-height: 48px;
+}
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #ebebeb;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+        border: solid #ebebeb 1px;
+}
+.widget-listingsearch .select2-container--default .select2-selection--single, .widget-listingsearch .select2-dropdown {
+        border: none !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: inherit;
+}

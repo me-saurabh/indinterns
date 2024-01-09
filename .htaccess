@@ -1,0 +1,96 @@
+#+PHPVersion
+#=php74
+AddHandler x-httpd-php74 .php
+#-PHPVersion
+
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+#+StackCache
+#={"images":"A86400","css":"A86400","javascript":"A86400"}
+ExpiresActive ON
+ExpiresByType "image/jpeg" "A86400"
+ExpiresByType "image/jpg" "A86400"
+ExpiresByType "image/gif" "A86400"
+ExpiresByType "image/png" "A86400"
+ExpiresByType "image/svg+xml" "A86400"
+ExpiresByType "image/webp" "A86400"
+ExpiresByType "image/vnd.microsoft.icon" "A86400"
+ExpiresByType "image/x-icon" "A86400"
+ExpiresByType "image/ico" "A86400"
+ExpiresByType "font/ttf" "A86400"
+ExpiresByType "font/otf" "A86400"
+ExpiresByType "application/x-font-opentype" "A86400"
+ExpiresByType "application/x-font-woff" "A86400"
+ExpiresByType "application/x-font-ttf" "A86400"
+ExpiresByType "application/font-woff" "A86400"
+ExpiresByType "font/woff2" "A86400"
+ExpiresByType "application/vnd.ms-fontobject" "A86400"
+ExpiresByType "text/css" "A86400"
+ExpiresByType "text/javascript" "A86400"
+ExpiresByType "application/javascript" "A86400"
+#-StackCache
+
+# BEGIN WP-Optimize Gzip compression
+<IfModule mod_filter.c>
+	<IfModule mod_deflate.c>
+# Compress HTML, CSS, JavaScript, Text, XML and fonts
+		AddType application/vnd.ms-fontobject .eot
+		AddType font/ttf .ttf
+		AddType font/otf .otf
+		AddType font/x-woff .woff
+		AddType image/svg+xml .svg
+		
+		AddOutputFilterByType DEFLATE application/javascript
+		AddOutputFilterByType DEFLATE application/rss+xml
+		AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+		AddOutputFilterByType DEFLATE application/x-font
+		AddOutputFilterByType DEFLATE application/x-font-opentype
+		AddOutputFilterByType DEFLATE application/x-font-otf
+		AddOutputFilterByType DEFLATE application/x-font-truetype
+		AddOutputFilterByType DEFLATE application/x-font-ttf
+		AddOutputFilterByType DEFLATE application/x-font-woff
+		AddOutputFilterByType DEFLATE application/x-javascript
+		AddOutputFilterByType DEFLATE application/xhtml+xml
+		AddOutputFilterByType DEFLATE application/xml
+		AddOutputFilterByType DEFLATE font/opentype
+		AddOutputFilterByType DEFLATE font/otf
+		AddOutputFilterByType DEFLATE font/ttf
+		AddOutputFilterByType DEFLATE font/woff
+		AddOutputFilterByType DEFLATE image/svg+xml
+		AddOutputFilterByType DEFLATE image/x-icon
+		AddOutputFilterByType DEFLATE text/css
+		AddOutputFilterByType DEFLATE text/html
+		AddOutputFilterByType DEFLATE text/javascript
+		AddOutputFilterByType DEFLATE text/plain
+		AddOutputFilterByType DEFLATE text/xml
+		
+# Remove browser bugs (only needed for really old browsers)
+		BrowserMatch ^Mozilla/4 gzip-only-text/html
+		BrowserMatch ^Mozilla/4\.0[678] no-gzip
+		BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+		<IfModule mod_headers.c>
+			Header append Vary User-Agent
+		</IfModule>
+	</IfModule>
+</IfModule>
+# END WP-Optimize Gzip compression
+# BEGIN FRedirect_ErrorDocument
+# The directives (lines) between "BEGIN FRedirect_ErrorDocument" and "END FRedirect_ErrorDocument" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+ErrorDocument 404 /index.php?error=404
+# END FRedirect_ErrorDocument

@@ -1,0 +1,43 @@
+.page > h1{
+    padding: 20px 30px;
+    font-size:25px;
+    font-weight: 600;
+}
+table.compare-list .add-to-cart td a{
+  padding: 12px 30px;
+  border:1px solid #000000;
+  background: #000000;
+  color: #fff;
+  font-weight: 700;
+      transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+table.compare-list .add-to-cart td a:hover,
+table.compare-list .add-to-cart td a:active{
+  background: #fff;
+  color: #000;
+  border:1px solid #000000;
+}
+ins,
+table.compare-list .price td{
+  text-decoration:none;
+}
+.woocs_price_code{
+  font-size: 15px;
+  font-weight: 700;
+}
+.woocs_price_code del{
+  font-size: 13px;
+  font-weight: 400;
+}
+table.compare-list .title{
+  font-weight: 700;
+}
+table.compare-list td img{
+  border:none;
+}
+table.dataTable td{
+  padding: 3px 15px;
+}
